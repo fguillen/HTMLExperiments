@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      background-color: #846267;
+      height: 50px;
+    }
+
+    .footer {
+      background-color: #AEB4A9;
+      height: 50px;
+    }
+
+    .chat {
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .column-left {
+      background-color: #D89A9E;
+      flex-basis: 200px;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .column-right {
+      background-color: #C37D92;
+      flex-grow: 1;
+    }
+
+    .conversations {
+      font-size: 1em;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Header</div>
+    <div class="chat">
+      <div class="column-left">
+        <h1>Column Left</h1>
+        <div class="conversations">
+          <div class="conversation">Lorem Ipsum has been the industry's</div>
+          <div class="conversation">Contrary to popular belief, Lorem Ipsum</div>
+          <div class="conversation">Cicero, written in 45 BC. This book is a treatise</div>
+          <div class="conversation">Lorem Ipsum has been the industry's</div>
+          <div class="conversation">Contrary to popular belief, Lorem Ipsum</div>
+          <div class="conversation">Cicero, written in 45 BC. This book is a treatise</div>
+          <div class="conversation">Lorem Ipsum has been the industry's</div>
+          <div class="conversation">Contrary to popular belief, Lorem Ipsum</div>
+          <div class="conversation">Cicero, written in 45 BC. This book is a treatise</div>
+          <div class="conversation">Lorem Ipsum has been the industry's</div>
+          <div class="conversation">Contrary to popular belief, Lorem Ipsum</div>
+          <div class="conversation">Cicero, written in 45 BC. This book is a treatise</div>
+          <div class="conversation">Lorem Ipsum has been the industry's</div>
+          <div class="conversation">Contrary to popular belief, Lorem Ipsum</div>
+          <div class="conversation">Cicero, written in 45 BC. This book is a treatise</div>
+          <div class="conversation">Lorem Ipsum has been the industry's</div>
+          <div class="conversation">Contrary to popular belief, Lorem Ipsum</div>
+          <div class="conversation">Cicero, written in 45 BC. This book is a treatise</div>
+        </div>
+      </div>
+      <div class="column-right">
+        <h1>Column Right</h1>
+      </div>
+    </div>
+    <div class="footer">Footer</div>
+  </div>
+</body>
+</html>
